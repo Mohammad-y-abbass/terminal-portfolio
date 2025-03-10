@@ -41,7 +41,7 @@ section {
   flex-direction: column;
   overflow: hidden;
   padding: 5rem;
-  background-image: url('../../../../../Downloads/programming-hero-background.svg');
+  background-image: url('/images/bg.svg');
 }
 
 .hero-text-container {
@@ -226,6 +226,7 @@ section {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 1px solid #ababab;
+  cursor: none;
 }
 
 .project-content {
