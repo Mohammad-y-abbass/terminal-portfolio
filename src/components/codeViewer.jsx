@@ -89,7 +89,7 @@ export function CodeViewer({ project, onClose }) {
         setIsFullScreen={setIsFullScreen}
         isFullScreen={isFullScreen}
       />
-      <div className='p-4 pr-0 pb-0 overflow-auto h-full flex gap-4'>
+      <div className='sm:p-4 pr-0 pb-0 overflow-auto h-full flex gap-4 text-xs'>
         <CodeExplorer
           files={files}
           loading={explorerLoading}

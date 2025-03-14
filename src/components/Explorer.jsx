@@ -97,7 +97,7 @@ export default function CodeExplorer({
                   <span className='truncate'>{node.name}</span>
                 </div>
                 {expandedFolders[node.name] && (
-                  <div className='animate-fadeIn'>
+                  <div className='animate-fadeIn text-xs'>
                     {renderTree(node.children, level + 1)}
                   </div>
                 )}
@@ -105,7 +105,7 @@ export default function CodeExplorer({
             ) : (
               <div className='flex items-center gap-2 py-1 px-2 hover:bg-gray-800 rounded transition-colors duration-150 cursor-pointer'>
                 {getFileIcon(node.name)}
-                <span className='truncate'>{node.name}</span>
+                <span className='truncate text-xs'>{node.name}</span>
               </div>
             )}
           </li>
@@ -115,7 +115,7 @@ export default function CodeExplorer({
   };
 
   return (
-    <div className='w-[20%] h-full bg-gray-900 border-r border-gray-700 flex flex-col '>
+    <div className='w-[30%] h-full bg-gray-900 border-r border-gray-700 flex flex-col text-xs'>
       <div className='p-3 border-b border-gray-800 '>
         <h2 className='text-gray-400 font-medium text-xs uppercase tracking-wider'>
           Explorer
