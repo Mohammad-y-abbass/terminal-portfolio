@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+.token.punctuation,
+.token.operator {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff15;
+}
+
+
