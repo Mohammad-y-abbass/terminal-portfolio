@@ -1,16 +1,41 @@
-import React from 'react';
+import React from "react";
 
 const Experience = () => {
   return (
-    <div className='space-y-3'>
-      <p className='text-yellow-300 font-bold'>Work Experience</p>
+    <div className="space-y-3">
+      <p className="text-yellow-300 font-bold">Work Experience</p>
 
       <div>
-        <p className='text-indigo-400 font-bold'>
-          Software Developer | Big Data Specialist Community
+        <p className="text-indigo-400 font-bold">
+          Frontend Developer | Vertex Partners (Remote)
         </p>
-        <p className='text-gray-400'>August,2023 - Present</p>
-        <ul className='list-disc pl-5 mt-1'>
+        <p className="text-gray-400">April, 2025 – Present</p>
+        <ul className="list-disc pl-5 mt-1">
+          <li>
+            Worked on <span className="font-medium">Places4Students</span>, a
+            platform connecting students with off-campus housing options.
+          </li>
+          <li>
+            Developed an interactive map interface and a dynamic user dashboard,
+            improving navigation and user engagement.
+          </li>
+          <li>
+            Focused on frontend development using Next.js, ensuring scalability
+            and maintainability.
+          </li>
+          <li>
+            Achieved excellent Lighthouse scores (90+ on both desktop and
+            mobile) by optimizing performance, accessibility, and SEO.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p className="text-indigo-400 font-bold">
+          Software Developer Volunteer | Big Data Specialist Community (Remote)
+        </p>
+        <p className="text-gray-400">August, 2023 - Present</p>
+        <ul className="list-disc pl-5 mt-1">
           <li>
             Collaborated with a cross-functional team to design and architect a
             high-performance website for sharing programming courses using
@@ -36,11 +61,11 @@ const Experience = () => {
       </div>
 
       <div>
-        <p className='text-indigo-400 font-bold'>
-          Software Developer Intern | 3E Tech
+        <p className="text-indigo-400 font-bold">
+          Software Developer Intern | 3E Tech (Hybrid)
         </p>
-        <p className='text-gray-400'>December,2024 - March,2025</p>
-        <ul className='list-disc pl-5 mt-1'>
+        <p className="text-gray-400">December, 2024 - March,2025</p>
+        <ul className="list-disc pl-5 mt-1">
           <li>
             Developed a property management system integrated with Channex,
             streamlining operations for property owners.
@@ -64,11 +89,11 @@ const Experience = () => {
         </ul>
       </div>
       <div>
-        <p className='text-indigo-400 font-bold'>
-          Software Developer Intern | Bracket Technologies
+        <p className="text-indigo-400 font-bold">
+          Software Developer Intern | Bracket Technologies (On Site)
         </p>
-        <p className='text-gray-400'>June,2023 - July,2023</p>
-        <ul className='list-disc pl-5 mt-1'>
+        <p className="text-gray-400">June, 2023 - August,2023</p>
+        <ul className="list-disc pl-5 mt-1">
           <li>
             Collaborated with a team of developers to design, architect, and
             create a flight and hotel booking platform using the Bracket

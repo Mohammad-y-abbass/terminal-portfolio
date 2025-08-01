@@ -1,26 +1,26 @@
-import React from 'react';
+import React from "react";
 
 const Skills = () => {
   return (
-    <div className='space-y-2'>
-      <p className='text-yellow-300 font-bold'>Technical Skills</p>
+    <div className="space-y-2">
+      <p className="text-yellow-300 font-bold">Technical Skills</p>
       <div>
-        <p className='text-violet-400'>Languages:</p>
-        <p>JavaScript, TypeScript, Java, SQL, NoSQL</p>
+        <p className="text-violet-400">Languages:</p>
+        <p>JavaScript, TypeScript, Java, SQL, NoSQL, Go, C#</p>
       </div>
       <div>
-        <p className='text-violet-400'>Frameworks & Libraries:</p>
+        <p className="text-violet-400">Frameworks & Libraries:</p>
         <p>
-          React, Next.js, Node.js, Express, Spring Boot, Tailwind CSS, Jest,
-          Playwright
+          React.js, Next.js, NodeJs, Express.js, Spring Boot, Tailwind CSS,
+          Jest, Playwright, Unity
         </p>
       </div>
       <div>
-        <p className='text-violet-400'>Tools:</p>
-        <p>Git, GitHub, Selenium, Redis, Docker, Prisma</p>
+        <p className="text-violet-400">Tools:</p>
+        <p>Git, GitHub, Selenium, Redis, Docker, Prisma, GitHub Actions</p>
       </div>
       <div>
-        <p className='text-violet-400'>Databases:</p>
+        <p className="text-violet-400">Databases:</p>
         <p>Postgres, MySQL, MongoDB</p>
       </div>
     </div>
