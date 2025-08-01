@@ -11,7 +11,7 @@ const Skills = () => {
       <div>
         <p className="text-violet-400">Frameworks & Libraries:</p>
         <p>
-          React.js, Next.js, NodeJs, Express.js, Spring Boot, Tailwind CSS,
+          React.js, Next.js, AngularJs, NodeJs, Express.js, Spring Boot, Tailwind CSS,
           Jest, Playwright, Unity
         </p>
       </div>
