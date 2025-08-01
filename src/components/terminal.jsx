@@ -70,11 +70,6 @@ export function Terminal() {
       'social',
       'experience',
       'education',
-      'ls',
-      'cd',
-      'ecommerce-code',
-      'taskmanager-code',
-      'weather-code',
     ];
 
     if (input) {
