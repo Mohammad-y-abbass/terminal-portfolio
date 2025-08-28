@@ -3,114 +3,109 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="space-y-3">
-      <p className="text-yellow-300 font-bold">Work Experience</p>
+      <p className="text-yellow-300 font-bold">Experience</p>
 
+      {/* Vertex Partners */}
       <div>
         <p className="text-indigo-400 font-bold">
           Frontend Developer | Vertex Partners (Remote)
         </p>
-        <p className="text-gray-400">April, 2025 – Present</p>
+        <p className="text-gray-400">April 2025 – Present</p>
         <ul className="list-disc pl-5 mt-1">
           <li>
-            Worked on <span className="font-medium">Places4Students</span>, a
-            platform connecting students with off-campus housing options.
+            Served as a key frontend developer for{" "}
+            <span className="font-medium">Places4Students</span>, a leading
+            online marketplace connecting students with off-campus housing.
           </li>
           <li>
-            Developed an interactive map interface and a dynamic user dashboard,
-            improving navigation and user engagement.
+            Optimized the platform's performance, accessibility, and SEO to
+            achieve Lighthouse scores of 90+ on both desktop and mobile.
           </li>
           <li>
-            Focused on frontend development using Next.js, ensuring scalability
-            and maintainability.
+            Engineered a dynamic user dashboard and an interactive map interface
+            using Next.js, significantly improving user navigation and
+            engagement.
           </li>
           <li>
-            Achieved excellent Lighthouse scores (90+ on both desktop and
-            mobile) by optimizing performance, accessibility, and SEO.
+            Developed a scalable and maintainable frontend architecture to
+            ensure long-term stability and ease of future development.
           </li>
         </ul>
       </div>
 
+      {/* 3E Tech */}
       <div>
         <p className="text-indigo-400 font-bold">
-          Software Developer Volunteer | Big Data Specialist Community (Remote)
+          Full Stack Developer Intern | 3E Tech (Beirut, Hybrid)
         </p>
-        <p className="text-gray-400">August, 2023 - Present</p>
+        <p className="text-gray-400">January 2025 – April 2025</p>
         <ul className="list-disc pl-5 mt-1">
           <li>
-            Collaborated with a cross-functional team to design and architect a
-            high-performance website for sharing programming courses using
-            Spring Boot, MySQL, and Next.js, ensuring seamless user experience
-            across platforms
+            Contributed to the development of a full-stack Property Management
+            Dashboard, building and integrating key features using TypeScript,
+            React, and an Express.js backend.
           </li>
           <li>
-            Migrated the project from ReactJS to Next.js, improving performance
-            by reducing page load time by 30% and enhancing SEO through
-            server-side rendering and static site generation
+            Spearheaded the implementation of a secure, multi-step user form for
+            the dashboard with complex validation using React Hook Form and Zod.
           </li>
           <li>
-            Developed an efficient search engine with advanced filters and
-            pagination using Spring Boot and MySQL, enabling users to quickly
-            find relevant courses from various sources.
+            Engineered a full-stack Learning Management System (LMS) from the
+            ground up, featuring a NestJS backend, React frontend, and a
+            PostgreSQL database managed with Prisma.
           </li>
           <li>
-            Implemented web scraping functionality using Selenium WebDriver and
-            Java, automating the aggregation of course data from multiple
-            platforms and integrating it into the MySQL database.
+            Optimized database queries within the LMS to improve performance by
+            25% while implementing features like role-based access control.
           </li>
         </ul>
       </div>
 
+      {/* Bracket Technologies */}
       <div>
         <p className="text-indigo-400 font-bold">
-          Software Developer Intern | 3E Tech (Hybrid)
+          Software Developer | Bracket Technologies
         </p>
-        <p className="text-gray-400">December, 2024 - March,2025</p>
+        <p className="text-gray-400">May 2024 – August 2024</p>
         <ul className="list-disc pl-5 mt-1">
           <li>
-            Developed a property management system integrated with Channex,
-            streamlining operations for property owners.
+            Engineered a high-performance search engine with dynamic filters for
+            a flight/hotel booking platform.
           </li>
+          <li>Developed a secure, role-based user registration system.</li>
           <li>
-            Built a complex multi-step form optimized application, enhancing
-            user experience and efficiency.
-          </li>
-          <li>
-            Optimized application performance, achieving a 34% increase in speed
-            and responsiveness.
-          </li>
-          <li>
-            Contributed to a Learning Management System (LMS) by improving
-            system design and database structure.
-          </li>
-          <li>
-            Utilized React, TypeScript, Express, Prisma, and PostgreSQL to
-            develop robust full-stack solutions.
+            Collaborated in a team environment to build and scale the platform
+            using Bracket, ensuring robust and reliable performance.
           </li>
         </ul>
       </div>
+
+      {/* Big Data Specialist Community */}
       <div>
         <p className="text-indigo-400 font-bold">
-          Software Developer Intern | Bracket Technologies (On Site)
+          Full Stack Developer (Volunteer) | Big Data Specialist Community
+          (Remote)
         </p>
-        <p className="text-gray-400">June, 2023 - August,2023</p>
+        <p className="text-gray-400">August 2024 – Present</p>
         <ul className="list-disc pl-5 mt-1">
           <li>
-            Collaborated with a team of developers to design, architect, and
-            create a flight and hotel booking platform using the Bracket
-            programming language, ensuring scalability and maintainability.
+            Architected and led the end-to-end development of a full-stack
+            platform that aggregates programming courses and coupons from
+            various online sources.
           </li>
           <li>
-            Developed and tested various platform components, ensuring robust
-            functionality and reliability across multiple features.
+            Engineered the complete application using Next.js for the frontend
+            and Java/Spring Boot for the backend, creating features like a blog,
+            news feed, and an administrative dashboard.
           </li>
           <li>
-            Created a user registration form, enabling agents to easily create
-            accounts and access platform functionalities securely.
+            Implemented an automated web scraping pipeline using Selenium
+            WebDriver to gather and update course data, ensuring the platform's
+            content remains current.
           </li>
           <li>
-            Developed an advanced search engine with filters, optimizing the
-            display and management of agents and improving overall platform
-            usability.
+            Designed and managed the MySQL database schema to efficiently store
+            and retrieve course, user, and content information.
           </li>
         </ul>
       </div>
